@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the NFT Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Create</a></li>
+        <li><a href="#">My NFTs</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="featured-nfts">
+      <h2>Featured NFTs</h2>
+      <div class="nft-card">
+        <img src="nft1.jpg" alt="NFT 1">
+        <h3>NFT 1</h3>
+        <p>Artist: John Doe</p>
+        <p>Price: 10 ETH</p>
+      </div>
+      <div class="nft-card">
+        <img src="nft2.jpg" alt="NFT 2">
+        <h3>NFT 2</h3>
+        <p>Artist: Jane Smith</p>
+        <p>Price: 5 ETH</p>
+      </div>
+    </section>
+    <section class="create-nft">
+      <h2>Create Your Own NFT</h2>
+      <form action="create-nft.php" method="post">
+        <label for="nft-name">NFT Name:</label>
+        <input type="text" id="nft-name" name="nft-name">
+        <label for="artist-name">Artist Name:</label>
+        <input type="text" id="artist-name" name="artist-name">
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price">
+        <input type="submit" value="Create NFT">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2022 NFT Platform</p>
+  </footer>
+</body>
+</html>
